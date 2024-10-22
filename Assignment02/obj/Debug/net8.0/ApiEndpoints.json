@@ -1,0 +1,178 @@
+[
+  {
+    "ContainingType": "Assignment02.Controllers.Q1DeliveryScoreControllercs",
+    "Method": "CalculateFinalScore",
+    "RelativePath": "api/Q1DeliveryScoreControllercs/CalculateDeliveryScore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "successfulDeliveries",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "obstaclesHit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Assignment02.Controllers.Q2WinningScoreController",
+    "Method": "CalculateWinningScore",
+    "RelativePath": "api/Q2WinningScore/CalculateWinningScore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apples3Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "apples2Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "apples1Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "bananas3Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "bananas2Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "bananas1Points",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Assignment02.Controllers.Q3ChiliPeppersController",
+    "Method": "ChiliPeppers",
+    "RelativePath": "api/Q3ChiliPeppers/ChiliPeppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Assignment02.Controllers.Q4DusaSizeController",
+    "Method": "CalculateFinalSize",
+    "RelativePath": "api/Q4DusaSize/CalculateFinalSize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "initialSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "yobiSizes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment02.Controllers.Q5HiddenPalindromeController",
+    "Method": "FindLongestPalindrome",
+    "RelativePath": "api/Q5HiddenPalindrome/FindLongestPalindrome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "word",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Assignment02.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Assignment02.WeatherForecast, Assignment02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
