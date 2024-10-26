@@ -16,7 +16,7 @@ You can view the project files for Assignment 0 [here](https://github.com/Nitish
 ##### 💻 Code Sample
 Here's a quick code sample demonstrating how to use the main feature of the project:
 ```csharp
-// Sample code for Assignment 0
+// Sample code for Assignment 1
 ﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment01.Controllers
