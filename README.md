@@ -39,5 +39,10 @@ namespace Assignment01.Controllers
         }
     }
 }
+```
 
+### ⚠️ Warning
+Please ensure you have all necessary dependencies installed before running the project. Refer to the installation instructions in the repository.
 
+### ℹ️ Note
+This project is open-source and welcomes contributions! Feel free to fork the repository and submit pull requests.
